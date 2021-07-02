@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+
+body {
+
+}
+
+.content {
+    width: 800px;
+    border: 1px solid greenyellow;
+    margin: 0 auto;
+}
+
+header {
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_photo {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: greenyellow;
+}
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.header_text {
+    font-family: 'Krona One', sans-serif;
+    color: greenyellow;
+}
+
+.main_content {
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    width: 33%;
+    background-color: greenyellow;
+}
+.left img {
+    width: 40px;
+    border-radius: 50%;
+    
+}
+.right {
+    width: 65%;
+    background-color: black;
+    color: greenyellow;
+}
+.element {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    font-size: 17px;
+}
+.contacts_item {
+    display: flex;
+    align-items: center;
+}
+.contacts_item span {
+    margin-left: 10px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: greenyellow;
+}
+footer {
+    display: flex;
+    background-color: greenyellow;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+#rs {
+    width: 50%;
+}
+footer span {
+    font-family: 'Krona One', sans-serif;
+}
+h3 {
+    font-family: 'Krona One', sans-serif;
+}
