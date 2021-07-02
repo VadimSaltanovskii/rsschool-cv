@@ -10,8 +10,7 @@
 My advantages:  
     - learnability
     - adequacy
-
-1. **Skills:**
+5. **Skills:**
     - HTML ★★★☆☆
     - CSS (Scss / Sass) ★★★☆☆
     - JS ES6+ ★★★☆☆
@@ -20,4 +19,6 @@ My advantages:
     - ReactJS ★★☆☆☆
     - Redux ★★☆☆☆
     - VueJs ★★☆☆☆
-    - Vuex ★★☆☆☆
+    - Vuex ★★☆☆☆  
+    Soft:
+    - VS Code ★★★☆☆
