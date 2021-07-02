@@ -1,19 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+
 .content {
-    width: 1000px;
+    width: 800px;
     height: 1000px;
-    border: 1px solid red;
+    border: 1px solid greenyellow;
     margin: 0 auto;
 }
 
-.group {
+header {
+    height: 200px;
+    background-color: black;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
+.header_photo {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: greenyellow;
+}
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.header_text {
+    font-family: 'Krona One', sans-serif;
+    color: greenyellow;
+}
+
+.main_content {
+    display: flex;
+    justify-content: space-between;
+}
 .left {
     width: 30%;
-    background-color: aqua;
+    background-color: grey;
+}
+.left img {
+    width: 40px;
+    border-radius: 50%;
 }
 .right {
-    width: 70%;
-    background-color: violet;
+    width: 68%;
+    background-color: aqua;
 }
+.element {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px;
+}
+.contacts_item {
+    display: flex;
+    align-items: center;
+}
+.contacts_item span {
+    margin-left: 10px;
+}
+a {
+    text-decoration: none;
+}
+
