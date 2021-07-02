@@ -1,0 +1,19 @@
+.content {
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.group {
+    display: flex;
+}
+
+.left {
+    width: 30%;
+    background-color: aqua;
+}
+.right {
+    width: 70%;
+    background-color: violet;
+}
